@@ -1,0 +1,29 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Halloween';
+    src: url(../fonts/fantasma.woff2) format('woff2');
+}
+
+.MainLetra{
+    font-family: 'Halloween';
+    color: white;
+    position: absolute;
+    font-size: 28px;
+    top: 70px;
+    left: 27px;
+}
+
+.SecondLetra{
+
+    font-family: 'Halloween';
+    color: white;
+    position: absolute;
+    font-size: 28px;
+    top: 450px;
+    left: 42px;
+
+}
