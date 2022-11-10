@@ -1,39 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Halloween</title>
-</head>
-<body>
-
-
+  </head>
+  <body>
     <!-- HEADER -->
     <header>
+      <section class="banner">
+        <picture class="imagenBanner">
+          <source srcset="./images/Portada.webp 1x, 
+          ./images/Portada@2.webp 2x, 
+          ./images/Portada@3.webp 3x"/>
+          <img src="" alt="Portada" />
+        </picture>
 
-        <section class="banner">
-            <picture class="imagenBanner">
-                <source>
-                <img src="./images/Portada.webp" alt="">
-            </picture>
-
-            <h1 class="MainLetra">FIESTA DE HALLOWEEN</h1>
-            <h1 class="SecondLetra">PÁSATELO DE MIEDO</h1>
-
-        </section>
-
+        <h1 class="mainLetra">FIESTA DE HALLOWEEN</h1>
+        <h2 class="secondLetra">PASATELO DE MIEDO</h2>
+      </section>
     </header>
 
     <!-- MAIN -->
-    <main></main>
+    <main>
+      <section class="primeraImagen">
+        <h2>Halloween en Mallorca</h2>
+        <h3 style="color: #7e7171">-- 31/10/2022 --</h3>
+        <div class="imagenCalabaza">
+          <img src="./images/señor.webp" alt="" />
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in
+          vulputate vel at ultrices semper. Leo nunc volutpat varius enim enim
+          ipsum. Ultrices quis nibh hendrerit at metus, diam dictumst. Pharetra
+          nisi et, lectus quis.
+        </p>
+        <button class="botonNaranja">Leer más</button>
+      </section>
+
+      <section class="tresImagenes">
+       <div class="uno"></div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies vitae tempus nunc tortor fringilla.</p>
+      <div class="dos"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies vitae tempus nunc tortor fringilla.</p>
+    <div class="tres"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies vitae tempus nunc tortor fringilla.</p>
+      </section>
+
+      <section class="imagenesPersonas">
+         
+        <div class="cuatro"></div>
+          <p>Lacus mauris vel elementum cum.</p>
+          
+          <div class="cinco"></div>
+          <p>Lacus mauris vel elementum cum.</p>
+            <div class="seis"></div>
+          <p>Lacus mauris vel elementum cum.</p>
+          <button class="botonNaranja2">Más Info</button>
+      </section>
+    </main>
 
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+      <h2>Apuntate a la fiesta</h2>
 
+      <h3>Nombre y Apellidos</h3>
+      <input type="text">
 
-</body>
+      <h3>Correo electrónico</h3>
+      <input type="text">
+
+      <h3>Teléfono (Opcional)</h3>
+      <input type="text">
+      <br>
+      <button class="botonNegro">Regístrate</button>
+      <br>
+
+      <div class="iconos"><img src="./images/facebook.svg" alt=""><img src="./images/instagram.svg" alt=""></div>
+      
+    </footer>
+  </body>
 </html>

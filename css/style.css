@@ -1,29 +1,181 @@
-html{
-    padding: 0;
-    margin: 0;
+html {
+  padding: 0;
+  margin: 0;
 }
 
 @font-face {
-    font-family: 'Halloween';
-    src: url(../fonts/fantasma.woff2) format('woff2');
+  font-family: 'Fantasma';
+  src: url('../fonts/miedo.woff2') format('woff2'),
+       url('../fonts/miedo.woff') format('woff'),
+       url('../fonts/miedo.ttf')  format('truetype');
 }
 
-.MainLetra{
-    font-family: 'Halloween';
+.banner{
+  position: relative;
+}
+
+
+.mainLetra {
+  font-family: 'Fantasma';
+  color: white;
+  position: absolute;
+  font-size: 28px;
+  top: 70px;
+  left: 27px;
+}
+
+.secondLetra {
+  font-family: 'Fantasma';
+  color: white;
+  position: absolute;
+  font-size: 28px;
+  top: 450px;
+  left: 42px;
+}
+
+.primeraImagen {
+  box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.primeraImagen > p {
+  text-align: justify;
+  padding: 5px 40px;
+}
+
+.botonNaranja {
+  color: white;
+  background-color: #e88021;
+  border: none;
+  height: 48px;
+  width: 99px;
+  margin-top: 15px;
+  margin-left: 180px;
+}
+
+.tresImagenes {
+  background-color: #b5aaaa;
+  text-align: center;
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.tresImagenes>div{
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+   
+}
+
+.uno{
+    background-image: url("./../images/gatoAlas@2.webp");
+}
+
+.dos{
+    background-image: url("./../images/calabazaSombrero.webp");
+}
+
+.tres{
+    background-image: url("./../images/tresCalabazas@2.webp");
+}
+
+
+.tresImagenes>p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 55px;
+}
+
+.imagenesPersonas{
+    padding: 50px 120px;
+    background-color: #F4F0EC;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.imagenesPersonas>div{
+    width: 100%;
+    height: 146px;
+    border-radius: 50%;
+    background-size:cover;
+}
+
+.cuatro{
+    background-image: url("./../images/tio@2.webp");
+}
+
+.cinco{
+    
+    background-image: url("./../images/chica@2.webp");
+}
+
+.seis{
+    background-image: url("./../images/chico@2.webp");
+
+}
+
+.imagenesPersonas>p{
+    padding-bottom: 40px;
+}
+
+.botonNaranja2{
     color: white;
-    position: absolute;
-    font-size: 28px;
-    top: 70px;
-    left: 27px;
-}
+    background-color: #e88021;
+    border: none;
+    height: 48px;
+    width: 99px;
+  }
 
-.SecondLetra{
+  footer{
+    padding-top: 30px;
+    background-color: #CF6604;
+    text-align: center;
+  }
 
-    font-family: 'Halloween';
+  footer>input{
+    height: 48px;
+    width: 252px;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+
+  footer>h2,h3{
     color: white;
-    position: absolute;
-    font-size: 28px;
-    top: 450px;
-    left: 42px;
+  }
 
-}
+  footer>h2{
+    font-family: 'Fantasma';
+    margin-bottom: 70px;
+    font-size: 26px;
+  }
+  footer>h3{
+    font-size: 22px;
+  }
+
+  .botonNegro{
+    border: none;
+    background-color:black;
+    color: white;
+    width: 124px;
+    height: 50px;
+    margin-top: 75px;
+    margin-left: 180px;
+  }
+
+  .footer>h1{
+    margin-right: 200px;
+  }
+
+  .iconos{
+    margin-top: 40px;
+    text-align: start;
+    margin-left: 50px;
+    padding-bottom: 20px;
+  }
+  .iconos>img{
+    margin-right: 15px;
+  }
